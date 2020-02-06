@@ -1,0 +1,14 @@
+.navbar{
+    margin-right: 100px;
+}
+.nav + .nav{
+    margin-left: 40px;
+}
+.nav {
+    font-size: 18px;
+    color: #000;
+    transition: all .2s;
+}
+.nav:hover{
+    color: #e6ff39;
+}

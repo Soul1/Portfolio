@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #ecfff0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.me{
+    font-size: 16px;
+    color: #000;
+}
+.img img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+}

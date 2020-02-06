@@ -1,0 +1,15 @@
+.btn{
+    padding: 10px 0px;
+    background-color: #ccc;
+    width: 250px;
+    margin: 0 auto;
+}
+.info{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.workS{
+    text-align: center;
+    background-color: #ffe7fd;
+    padding: 40px 0;
+}
