@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
+import Skills from "./Components/MySkills/Skills";
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
                 <div className='content'>
                     <Header/>
                     <Route path='/about' component={About}/>
-                    {/*<Route path='/skill' component = {MySkills}/>*/}
+                    <Route path='/skill' component = {Skills}/>
                     {/*<Route path='/works' component = {MyWorks}/>*/}
                     <Route path='/contact' component = {Contact}/>
                 </div>

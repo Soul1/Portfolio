@@ -1,0 +1,26 @@
+.skill{
+    border: 1px solid #000;
+    text-align: center;
+    display: inline-block;
+    max-width: 320px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.info{
+    border: 2px solid #c9ddff;
+    margin: 1px;
+    padding-bottom: 60px;
+}

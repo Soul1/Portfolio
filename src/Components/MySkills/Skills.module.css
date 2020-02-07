@@ -1,0 +1,16 @@
+.skills{
+    text-align: center;
+    background-color: #efe9ff;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
