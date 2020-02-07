@@ -1,7 +1,7 @@
 .about{
     display: flex;
     justify-content: space-around;
-    padding: 30px 0;
+    padding: 30px 0 60px;
     background-color: #ecfff0;
 }
 .info{
