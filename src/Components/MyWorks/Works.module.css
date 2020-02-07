@@ -1,6 +1,12 @@
-.skills{
+.bg{
+    background-color: #ccff74;
+}
+.works{
     text-align: center;
-    background-color: #efe9ff;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 11px;
 }
 
 .title{
@@ -11,9 +17,8 @@
     width: 200px;
     padding: 10px;
 }
-
 .items{
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
