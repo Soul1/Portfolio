@@ -1,0 +1,41 @@
+.contact{
+    text-align: center;
+    background-color: #ffc4bc;
+}
+
+.info{
+    padding: 5px 10px;
+    background-color: #ccc;
+    width: 150px;
+    margin: 0 auto 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.input{
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 300px;
+    width: 100%;
+    padding: 8px;
+}
+
+.textarea{
+    resize: none;
+    max-width: 300px;
+    width: 100%;
+    height: 90px;
+    padding: 8px;
+    margin-bottom: 50px;
+}
+
+.textarea::placeholder,
+.input::placeholder{
+    font-size: 16px;
+}
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
