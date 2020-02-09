@@ -3,10 +3,10 @@ import './App.css';
 import {BrowserRouter, Route} from "react-router-dom";
 import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import Skills from "./Components/MySkills/Skills";
 import Works from "./Components/MyWorks/Works";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
 
                 <div className='content'>
                     <Header/>
-                    <Route path='/about' component={About}/>
+                    <Route exact path='/' component={About}/>
                     <Route path='/skill' component = {Skills}/>
                     <Route path='/works' component = {Works}/>
                     <Route path='/contact' component = {Contact}/>

@@ -5,7 +5,7 @@ import css from './Nav.module.css'
 const Nav = () => {
     return (
         <div className={css.navbar}>
-            <NavLink className={css.nav} to='/about'>Главная</NavLink>
+            <NavLink className={css.nav} to='/'>Главная</NavLink>
             <NavLink className={css.nav} to='/skill'>Скиллы</NavLink>
             <NavLink className={css.nav} to='/works'>Работы</NavLink>
             <NavLink className={css.nav} to='/contact'>Контакты</NavLink>

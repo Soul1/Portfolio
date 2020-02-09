@@ -1,7 +1,6 @@
 .contact{
     text-align: center;
     background-color: #ffc4bc;
-    padding-bottom: 3px;
 }
 
 .info{
@@ -40,4 +39,5 @@
     padding: 5px 10px;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 3px;
 }
