@@ -23,7 +23,7 @@ function App() {
                     <Route path='/contact' component = {Contact}/>
                 </div>
                 <div className='footer'>
-                    <Footer />
+                    {/*<Footer />*/}
                 </div>
             </div>
             </div>

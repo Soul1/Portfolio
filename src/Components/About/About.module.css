@@ -8,15 +8,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.me{
     font-size: 16px;
     color: #000;
+    padding: 0px 10px;
 }
 .img img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 300px;
+    max-width: 280px;
     width: 100%;
 }
