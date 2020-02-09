@@ -3,7 +3,7 @@
     border: 2px solid #000;
     max-width: 400px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 40px;
     background-color: #fff;
 }
 
@@ -15,6 +15,12 @@
     margin: 0 auto 30px;
     background-color: #fff6d6;
     transition: all .3s;
+}
+
+.img img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .btn{
@@ -49,4 +55,21 @@
     line-height: 20px;
     text-align: left;
     padding: 10px 0px 20px 10px;
+}
+
+@media (max-width: 880px){
+    .item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 555px) {
+    .work{
+        padding: 10px 20px;
+    }
 }
