@@ -1,7 +1,8 @@
 .social {
     text-align: center;
-    margin: 0 auto;
-    display: inline-block;
+    margin: 0 auto 20px;
+    display: flex;
+    padding: 0px 15px;
 }
 .socialImg{
     background-size: cover;
