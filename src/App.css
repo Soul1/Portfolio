@@ -8,8 +8,7 @@ body {
   min-height: 100%;
 }
 body{
-  overflow: hidden;
-  max-width: 100%;
+  overflow-x: hidden;
 }
 .App {
   max-width: 1200px;

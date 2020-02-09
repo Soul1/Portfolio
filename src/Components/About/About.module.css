@@ -19,3 +19,14 @@
     max-width: 280px;
     width: 100%;
 }
+
+@media (max-width: 450px) {
+    .about{
+        display: block;
+        text-align: center;
+    }
+    .info{
+        margin: 0 0 30px;
+        justify-content: center;
+    }
+}
