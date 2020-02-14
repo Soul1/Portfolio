@@ -11,15 +11,17 @@ body{
   overflow-x: hidden;
 }
 .App {
-  max-width: 1200px;
-  width: 100%;
-  padding: 0px;
-  margin: 0 auto;
+  height: 100vh;
+  background-color: #ffd6e7;
 }
 .wrapper{
   display: flex;
   flex-direction: column;
+  width: 80%;
   min-height: 100%;
+  overflow: auto;
+  margin: 0 auto;
+
 }
 .content {
   flex: 1 0 auto;
@@ -32,3 +34,8 @@ a{
   color: #000;
 }
 
+@media (max-width: 1200px) {
+  .wrapper{
+    width: 100%;
+  }
+}

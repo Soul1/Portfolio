@@ -2,26 +2,26 @@
     border: 1px solid #000;
     text-align: center;
     display: inline-block;
-    max-width: 320px;
+    max-width: 280px;
     width: 100%;
     background-color: #fff;
-    margin: 0px 5px 30px;
+    margin: 0px 5px 64px;
 }
 
 .img{
     width: 150px;
     height: 150px;
-    margin: 0 auto 30px;
+    margin: 0 auto 15px;
 }
 
 .title{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .info{
     border: 2px solid #c9ddff;
     margin: 1px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }

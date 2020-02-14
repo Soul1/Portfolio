@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Contact from "./Components/Contact/Contact";
@@ -10,13 +10,12 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="App">
+
             <div className="wrapper">
-
-
+                <Header/>
                 <div className='content'>
-                    <Header/>
                     <Route exact path='/' component={About}/>
                     <Route path='/skill' component = {Skills}/>
                     <Route path='/works' component = {Works}/>
@@ -27,7 +26,7 @@ function App() {
                 </div>
             </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

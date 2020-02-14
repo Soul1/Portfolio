@@ -6,7 +6,7 @@
 .title{
     font-size: 24px;
     font-weight: 700;
-    margin: 0 auto 50px;
+    margin: 0 auto 25px;
     background-color: #ccc;
     width: 200px;
     padding: 10px;
@@ -16,5 +16,4 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 50px;
 }

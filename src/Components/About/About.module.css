@@ -1,14 +1,14 @@
 .about{
     display: flex;
     justify-content: space-around;
-    padding: 30px 0 60px;
+    padding: 30px 0 108px;
     background-color: #ecfff0;
 }
 .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     padding: 0px 10px;
 }

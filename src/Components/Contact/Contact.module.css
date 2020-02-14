@@ -7,26 +7,26 @@
     padding: 5px 10px;
     background-color: #ccc;
     width: 150px;
-    margin: 0 auto 50px;
+    margin: 0 auto 39px;
     font-size: 24px;
     font-weight: 700;
 }
 
 .input{
     display: block;
-    margin: 0 auto 20px;
-    max-width: 300px;
+    margin: 0 auto 30px;
+    max-width: 450px;
     width: 100%;
     padding: 8px;
 }
 
 .textarea{
     resize: none;
-    max-width: 300px;
+    max-width: 450px;
     width: 100%;
     height: 90px;
     padding: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .textarea::placeholder,
@@ -36,8 +36,13 @@
 
 .btn{
     border: none;
-    padding: 5px 10px;
-    font-size: 16px;
+    padding: 8px 10px;
+    font-size: 20px;
     font-weight: 600;
-    margin-top: 3px;
+    border-bottom: 1.5px dashed #c8e1ff;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #ffc4bc;
 }
